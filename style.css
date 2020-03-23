@@ -1,0 +1,53 @@
+        body {
+            width: 100%;
+            height: 100%;
+            background: url(background.jpg) no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            font-family: 'Courgette', cursive;
+        }
+        
+        .buffer1 {
+            height: 15em;
+        }
+        
+        @media only screen and (max-width: 1180px) {
+            .buffer1 {
+                height: 10em;
+            }
+        }
+        
+        h1 {
+            font-weight: 800;
+            color: white;
+            font-size: 3em;
+        }
+        
+        hr {
+            border: 1px solid #E0A800;
+            max-width: 5em;
+        }
+        
+        .buffer2 {
+            height: 5em;
+        }
+        
+        .btn {
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            padding: 15px;
+            outline: none;
+        }
+        
+        .btn-st {
+            color: black;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: all 1s;
+        }
+        
+        .btn-st:hover {
+            transform: translateY(-7px);
+        }
